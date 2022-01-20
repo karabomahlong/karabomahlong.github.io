@@ -1,0 +1,361 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+/*outline: 1px solid red;*/
+
+}
+/*_________________Header plus navigation________________*/
+header{
+    width: 100%;
+    min-height: fit-content;
+    background: linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.6)), url(images/bkg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5% 0;
+}
+
+.navbar img{
+    background: transparent;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.navlinks li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.navlinks li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11pt;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.navlinks li a:hover{
+    color: #f4d03f;
+    font-weight: 900px;
+}
+
+.copy{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+.copy h1, p{
+    color: #fff;
+    padding: 10px 0;
+}
+
+.copy h1 {
+    margin: 100px 10% 0;
+    font-size: 36pt;
+    text-align: start;
+    letter-spacing: 0.5px;
+}
+
+.copy p {
+    margin: 80px 10% 100px;
+    text-align: end;
+    font-size: 16pt;
+    letter-spacing: 0.5px;
+}
+
+/*_________________About________________*/
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(247, 247, 247, 0.884);
+    padding-bottom: 50px;
+}
+
+.about-me{
+    width: 100%;
+    margin: 50px 10% 25px;
+    padding: 10px;
+    border-left: 4px solid #f4d03f;
+    font-size: 18pt;
+    letter-spacing: 0.5px;
+}
+
+
+.skills{
+    width: 14.3%;
+    margin-left: 10%;
+}
+
+.skills hr{
+    width: 50px;
+    border: 2px solid;
+    margin: 5px 0;
+}
+
+
+.skills h1, .personal h1, .expertise h1{
+    text-transform: uppercase;
+    font-size: 16pt;
+    color: #171717;
+}
+
+
+.skills-list li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 10pt;
+    color: #171717;
+}
+
+
+.personal, .expertise{
+    width: 30%;
+    padding-left: 30px;
+    /*margin-left: 20px;*/
+}
+
+.personal p, .expertise p{
+    color: #171717;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+    font-size: 10pt;
+}
+
+/*_________________Work________________*/
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f4d03f;
+    color: #171717;
+}
+
+.voila hr, .on-target hr{
+    width: 50px;
+    border: 2px solid #fff;
+    margin: 10px 0;
+}
+
+.recentwork{
+    width: 100%;
+    margin: 50px 10% 50px;
+    padding: 10px;
+    border-left: 4px solid #fff;
+    font-size: 18pt;
+    letter-spacing: 0.5px;
+}
+
+.voila, .on-target{
+    margin-left: 10%;
+    width: 25%; 
+}
+
+.voila, .on-target, .work-img{
+    margin-bottom: 50px;
+}
+
+.voila h1, .on-target h1{
+    font-size: 16pt;
+    color: #171717;
+}
+
+.voila h3, .on-target h3{
+    font-size: 12pt;
+    color: #171717;
+    margin: 10px 0;
+}
+
+
+.voila p, .on-target p{
+    color: #171717;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+    font-size: 11pt;
+}
+
+.project-details{
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    margin: 20px 0;
+}
+
+.project-details a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #171717;
+    font-size: 8pt;
+    font-weight: bold;
+    border: 2px solid #171717;
+    border-radius: 2px;
+    padding: 7px 10px;
+    text-align: center;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+}
+
+.work-img{
+    text-align: center;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.work-img img{
+    background: transparent;
+    box-shadow: 3px 4px 15px rgb(23 23 23/ 0.5);
+    width: 550px;
+    
+}
+
+
+/*_________________Services________________*/
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    color: #171717;
+}
+
+/*.prog-img{
+    mask-image: url(working-prog-1.png);
+    mask-size: 200px 50%;
+}*/
+
+.work-prog{
+    width: 100%;
+    margin: 50px 10% 25px;
+    padding: 10px;
+    border-left: 4px solid #f4d03f;
+    font-size: 18pt;
+    letter-spacing: 0.5px;
+}
+
+.wp-copy{
+    margin-left: 10%;
+    width: 25%;
+
+}
+
+.wp-copy p{
+    color: #171717;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+    font-size: 11pt;
+}
+
+.dribble{
+    background: #f43f5d;
+    text-decoration: none;
+    border: none;
+    margin: 20px 0;
+    padding: 7px 10px;
+    border-radius: 4px;
+
+}
+
+.dribble a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+}
+
+
+.work-prog-1{
+    padding-left: 10%;
+}
+
+.work-prog-2{
+    margin-left: 10%;
+}
+
+.work-prog-1 img, .work-prog-2 img{
+    box-shadow: 3px 4px 15px rgb(23 23 23/ 0.5);
+    width: 200px; 
+    padding: 0 20px;
+}
+
+/*_________________Contact________________*/
+
+.contact{
+    background: #262626;
+    margin-top: 50px;
+    padding: 25px 0;
+}
+
+.contact h1{
+    color: #fff;
+    text-align: center;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.feel-free{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.feel-free p{
+    font-size: 9pt;
+    line-height: 12pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.cta{
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 0px 10px;
+    padding: 6px 20px; 
+}
+
+.cta a, .cta a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 8pt;
+    font-weight: bold;
+    letter-spacing: 0.6px;     
+}
+
+/*_________________Links________________*/
+
+.links{
+    background: #171717;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.social-links li{
+    margin: 0 10px;
+}
+.social-links li a{
+    letter-spacing: 0.6px;  
+    font-size: 8pt;
+}
+
+
+/*_________________END________________*/
