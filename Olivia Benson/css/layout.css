@@ -1,0 +1,817 @@
+/*************
+MAIN LAYOUT
+**************/
+
+.intro, .footer-contact h3{
+    max-width: 880px;
+    width: 95%;
+    margin: auto;
+    padding-top: 2.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro_about-me{
+    max-width: 880px;
+    width: 95%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+.contact-address, .contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-address p:nth-child(3){
+    margin: 1em 0;
+}
+
+.contact-address .main-phone{
+    margin: 1em 0;
+}
+
+
+
+/* ________Body copy grid_______ */
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 28px;
+}
+
+.grid-container-2col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28px;
+    
+}
+
+.grid-contact{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+}
+
+.grid-contact .divider{
+    display: none;
+}
+
+.grid-about-me{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    column-gap: 28px;
+    height: fit-content;
+}
+
+
+/****************************************************
+
+_____________________GRID CARDS_____________________
+
+
+*****************************************************
+*/
+
+.grid-card, .grid-card-sold{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+}
+
+.sec-h3{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 100%;
+    height: 277px;
+    background-color: #404040;
+
+}
+
+.card-flex{
+    display: flex;
+    align-items: flex-end;
+}
+
+.info{
+    width: 100%;
+    background: #1b1f24c2;
+    padding: .5em .75em;
+    color: #fff;
+    user-select: none;
+}
+
+
+.info p{
+    margin-top: 3px;
+}
+
+.info p, ul li{
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: .02rem;
+}
+
+.info h3{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: .02rem;
+}
+
+
+.info ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-right: 6px;
+
+}
+
+.info ul li:last-child{
+    border: none;
+}
+
+/****************************************************
+
+__________________END GRID CARDS_____________________
+
+
+*****************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************
+
+_______________START FOR SALE PROPERTIES_____________
+
+
+*****************************************************
+*/
+
+.bass-1{
+    background-image: url(../assets/pictures/Bassonia/bas-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.bass-2{
+    background-image: url(../assets/pictures/Bassonia/bas-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bass-3{
+    background-image: url(../assets/pictures/Bassonia/bas-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bass-4{
+    background-image: url(../assets/pictures/Bassonia/bas-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bass-5{
+    background-image: url(../assets/pictures/Bassonia/bas-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.oak-1{
+    background-image: url(../assets/pictures/Oakdene/oak-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.oak-2{
+    background-image: url(../assets/pictures/Oakdene/oak-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.win-1{
+    background-image: url(../assets/pictures/Winchester/win-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.win-2{
+    background-image: url(../assets/pictures/Winchester/win-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.win-3{
+    background-image: url(../assets/pictures/Winchester/win-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glen-1{
+    background-image: url(../assets/pictures/Glenvista/glen-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eoa-1{
+    background-image: url(../assets/pictures/EOA/eoa-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eoa-2{
+    background-image: url(../assets/pictures/EOA/eoa-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eoa{
+    margin-bottom: 4em;
+}
+
+/****************************************************
+
+__________________END FOR SALE_____________________
+
+
+*****************************************************
+*/
+
+
+
+
+
+
+/****************************************************
+
+__________________START FOR LEASE____________________
+
+
+*****************************************************
+*/
+.lonehill-1{
+    background-image: url(../assets/pictures/lease/lonehill-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lonehill-2{
+    background-image: url(../assets/pictures/lease/lonehill-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fourways-1{
+    background-image: url(../assets/pictures/lease/fourways-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fourways{
+    margin-bottom: 3em;
+}
+
+/****************************************************
+
+__________________END For Lease_____________________
+
+
+*****************************************************
+*/
+
+
+
+
+
+
+/****************************************************
+
+__________________START SOLD PROPERTIES______________
+
+
+****************************************************/
+
+.sold-1{
+    background-image: url(../assets/pictures/Sold/sold-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-1:hover{
+background-color: #4d4d4d00;
+}
+
+.sold-2{
+    background-image: url(../assets/pictures/Sold/sold-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-2:hover{
+background-color: #4d4d4d00;
+}
+
+.sold-3{
+    background-image: url(../assets/pictures/Sold/sold-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-3:hover{
+background-color: #4d4d4d00;
+}
+
+.sold-4{
+    background-image: url(../assets/pictures/Sold/sold-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-4:hover{
+background-color: #4d4d4d00;
+}
+
+
+.sold-5{
+    background-image: url(../assets/pictures/Sold/sold-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-5:hover{
+background-color: #4d4d4d00;
+}
+
+
+.sold-6{
+    background-image: url(../assets/pictures/Sold/sold-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-6:hover{
+background-color: #4d4d4d00;
+}
+
+
+.sold-7{
+    background-image: url(../assets/pictures/Sold/sold-7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-7:hover{
+background-color: #4d4d4d00;
+}
+
+.sold-8{
+    background-image: url(../assets/pictures/Sold/sold-8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4d4d4d;
+    background-blend-mode: luminosity;
+    transition: all 0.7s ease 0s ;
+}
+
+.sold-8:hover{
+background-color: #4d4d4d00;
+}
+
+
+
+/****************************************************
+
+__________________END SOLD PROPERTIES________________
+
+
+*****************************************************
+*/
+
+
+
+
+
+/****************************************************
+
+__________________MEDIA QUERY BODY COPY______________
+
+
+*****************************************************
+*/
+
+@media (max-width: 770px){
+    .side-bar-list a, .side-bar-form .trans-field{
+        font-size: .8rem;    
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-about-me{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 28px;
+        height: fit-content;
+    }
+
+    .testimonial p, .client{
+        font-size: 1.1rem;
+    }
+
+    .intro>*, 
+    .intro_about-me p, 
+    .body-copy p, 
+    .marketing-list li, 
+    .neighbour-nav a{
+        font-size: 1rem;
+    }
+
+    .body-copy-h{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 730px){
+     /*.navbar-fixed{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+
+        position: fixed;
+        overflow: hidden;
+        z-index: 1;
+        background-color: #3a424d;
+        right: 0;
+        left: 0;
+    }
+
+    .navbar-fixed .hide, .navbar h3{
+        display: none;
+    }
+
+    .navlinks .hide{
+        display: inline-block;
+    }*/
+
+}
+
+
+@media (max-width: 620px){
+    .side-bar-list a, .side-bar-form .trans-field{
+        font-size: .75rem;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-container-2col{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-about-me{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+        height: fit-content;
+    }
+
+    .grid-contact{
+        display: grid;
+        grid-template-columns:  1fr;
+        row-gap: 0;
+    }
+
+    .about-col-2{
+        display: none;
+    }
+
+    .grid-contact .divider{
+        display: block;
+    }
+
+    .services-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3em;
+        height: fit-content;
+    }
+
+    .services{
+        margin: 1.5em 0;
+    }
+
+    .contact-address{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 14px;
+    }
+
+    .contact-info .socials{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .contact-info .socials img, 
+    .socials img, 
+    .main-socials img{
+        width: 20px;
+        margin-right: .5em;
+    }
+
+
+
+    .body-copy img{
+        width: 100%;
+    }
+
+
+    .profile{
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .footer-contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 2em;
+    }
+    
+
+    .main-footer-contact h2, 
+    .footer-contact h2{
+        font-size: 1.5rem;
+    }
+    
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: 1rem;
+        margin-bottom: 1em;
+    }
+
+    .contact-info span,
+    .contact-address .agent, 
+    .agent{
+        font-size: 1.5rem;
+    }
+
+    
+
+
+    .footer-contact-form .outline-field, 
+    .footer-contact-form .main-outline-field{
+        padding: .6em .5em;
+    }
+    
+
+    .footer-contact-form .outline-field, 
+    .footer-contact-form .main-outline-field, 
+    .btn{
+        flex: 1 1 auto;
+    }
+
+    .btn{
+        padding: .6em 0;
+        font-size: .8rem;
+    }
+    
+
+    .main-sitemap a, .sitemap a{
+        font-size: .85rem;
+    }
+    
+
+    .footer-copyright h3, .main-footer-contact h3{
+        font-size: .7rem;
+    }
+
+}
+
+
+/* Mobile to smallest screen */
+
+@media (max-width: 430px){
+
+    .testimonial p, .client{
+        font-size: .85rem;
+    }
+
+
+    .intro>*, 
+    .intro_about-me, 
+    .body-copy p, 
+    .marketing-list li,
+    .neighbour-nav a{
+    font-size: .85rem; 
+    }
+
+    .body-copy-h{
+        font-size: 1rem;
+    }
+
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: .85rem;
+    }
+
+    .contact-info span{
+        font-size: 1.2rem;
+    }
+
+    .footer-contact-address .socials,  
+    .main-socials {
+        margin-bottom: 2em;
+    }
+
+    .main-sitemap a, .sitemap a{
+        font-size: .7rem;
+    }
+    
+    .footer-contact-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2em;
+    }
+
+    .main-footer-contact .divider, 
+    .footer-contact .divider{
+        margin: 2em 0;
+    }
+ 
+}
+
+
+
+@media (max-width: 375px){
+    .contact-address{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 14px;
+    }
+
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: .8rem;
+    }
+
+    .contact-info span{
+        font-size: 1rem;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .container{
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
+    
+}
+
+
+@media (max-width: 320px){
+
+    .main-footer-contact h2, 
+    .footer-contact h2{
+        font-size: 1.4rem;
+    }
+
+    .footer-copyright h3, .main-footer-contact h3{
+        font-size: .65rem;
+    }
+}
+
+
+/****************************************************
+
+__________________MEDIA QUERY FOR CARDS________________
+
+
+*****************************************************
+*/
+
+
+@media (max-width: 880px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+
+@media (max-width: 650px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+/****************************************************
+
+__________________END OF MEDIA QUERY FOR CARDS________________
+
+
+*****************************************************
+*/
