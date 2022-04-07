@@ -600,7 +600,8 @@ BUTTONS START
 .btn-clr{
     border: none;
     background-color: #3a424d;
-    font-size: 16px;
+    font-size: .8rem;
+    font-weight: 300;
     line-height: 1.4;
     letter-spacing: .02rem;
     color: #fff;

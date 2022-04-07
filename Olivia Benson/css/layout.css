@@ -624,6 +624,18 @@ __________________MEDIA QUERY BODY COPY______________
         border: none;
     }
 
+    .main-hero, .hero{
+        top: 5rem;
+    }
+    
+    .main-hero h1{ 
+        font-size: 2rem;
+    }
+    
+    .main-hero h2, .hero h1{
+        font-size: 1.5rem;
+    }
+
 }
 
 
@@ -758,7 +770,7 @@ __________________MEDIA QUERY BODY COPY______________
     
 
     .footer-copyright h3, .main-footer-contact h3{
-        font-size: .7rem;
+        font-size: .65rem;
     }
 
 }
@@ -860,7 +872,7 @@ __________________MEDIA QUERY BODY COPY______________
     }
 
     .footer-copyright h3, .main-footer-contact h3{
-        font-size: .65rem;
+        font-size: .6rem;
     }
 }
 
