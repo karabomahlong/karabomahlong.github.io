@@ -82,6 +82,10 @@ HEADER START
     padding: 0.2em .5em;
 }
 
+.menu-toggle{
+    display: none;
+}
+
 /*.navbar-fixed{
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +117,10 @@ HEADER START
     display: inline-block;
     margin-right: 20px;
     padding: 0.2em .5em;
+
 }
 
-.navlinks .hide{
+.navlinks .btn-hide{
     display: none;
 }
 
@@ -160,6 +165,10 @@ HEADER START
     user-select: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.menu-h3{
+    display: none;
 }
 
 .main-hero, .hero{

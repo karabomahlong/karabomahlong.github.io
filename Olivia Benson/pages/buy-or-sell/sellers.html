@@ -7,24 +7,31 @@
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/layout.css">
     <title>Olivia Benson</title>
+    <script src="../../nav.js" defer></script>
 </head>
 <body>
     <header class="bg-img buyers-header">
-        <nav class="navbar navbar-mg">
-            <a class="" href="../../index.html">Olivia Benson</a>
+        
+        <div class="nav-menu-toggle">
+            <a class="menu-h3" href="../../index.html">Olivia Benson</a>
+            <button class="menu-toggle" aria-expanded="flase"></button>
+        </div>
+
+        <nav class="navbar navbar-mg navbar-fixed" data-visible="false">
+            <a class="hide" href="../../index.html">Olivia Benson</a>
 
             <ul class="navlinks">
                 <li><a href="../about.html">About Me</a></li>
-                <li><a href="../listings/sale.html">Listings</a></li>
-                <li><a href="buyers.html">Buy or Sell</a></li>
+                <li><a href="sale.html">Listings</a></li>
+                <li><a href="../buy-or-sell/buyers.html">Buy or Sell</a></li>
                 <li><a href="../neighbourhoods.html">Neighbourhoods</a></li>
+                <li class="btn-hide"><a href="../contact.html">Contact</a></li>
             </ul>
-
-            <button class="btn-cta">
-                <a href="../contact.html"">Contact</a>
+            
+            <button class="btn-cta hide">
+                <a href="../contact.html">Contact</a>
             </button>
         </nav>
-
         <section class="hero">
             <h1>Sellers</h1>
         </section>
