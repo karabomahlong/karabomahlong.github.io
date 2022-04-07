@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto, Neuton;
+    src: url(../assets/fonts/Roboto-Light.ttf), url(assets/fonts/Neuton-Light.ttf);
+  }
+
 /*************
 MAIN LAYOUT
 **************/
@@ -624,8 +629,6 @@ __________________MEDIA QUERY BODY COPY______________
         border: none;
     }
 
-    .main-hero, .hero{
-        top: 5rem;
     }
     
     .main-hero h1{ 
@@ -633,7 +636,7 @@ __________________MEDIA QUERY BODY COPY______________
     }
     
     .main-hero h2, .hero h1{
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
 }
