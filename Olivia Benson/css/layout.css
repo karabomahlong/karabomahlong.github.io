@@ -629,6 +629,12 @@ __________________MEDIA QUERY BODY COPY______________
         border: none;
     }
 
+    .main-hero{
+        top: 7.5rem;
+    }
+
+    .hero{
+        top: 4.5rem;
     }
     
     .main-hero h1{ 
