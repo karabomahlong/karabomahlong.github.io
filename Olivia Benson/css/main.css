@@ -40,7 +40,7 @@ HEADER START
 
 
 .about-header{
-    background: linear-gradient(rgba(41, 41, 41, 0.6), rgba(41, 41, 41, 0.3), rgba(0, 0, 0, 0)), url(../assets/pictures/contact-header.jpg);
+    background: linear-gradient(rgba(41, 41, 41, 0.6), rgba(41, 41, 41, 0.3), rgba(0, 0, 0, 0)), url(../assets/pictures/about-header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,23 +85,6 @@ HEADER START
 .menu-toggle{
     display: none;
 }
-
-/*.navbar-fixed{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    outline: 1px solid #99b1cc80; 
-
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-    background-color: #1f2732;
-    right: 0;
-    left: 0;
-    
-}*/
-
 
 .navbar {
     display: flex;
