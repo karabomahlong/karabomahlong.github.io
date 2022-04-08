@@ -1,0 +1,476 @@
+
+
+/****************************************************
+
+__________________MEDIA QUERY BODY COPY______________
+
+
+*****************************************************
+*/
+
+@media (max-width: 770px){
+    .side-bar-list a, .side-bar-form .trans-field{
+        font-size: .8rem;    
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-about-me{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 28px;
+        height: fit-content;
+    }
+
+    .testimonial p, .client{
+        font-size: 1.1rem;
+    }
+
+    .intro>*, 
+    .intro_about-me p, 
+    .body-copy p, 
+    .marketing-list li, 
+    .neighbour-nav a{
+        font-size: 1rem;
+    }
+
+    .body-copy-h{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 730px){
+    .menu-h3{
+        display: block;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: Neuton;
+        font-weight: 300;
+        letter-spacing: .01rem;
+        inline-size: 1.4;
+        color: #fff;
+
+        padding: 0;
+        margin: 0;
+
+        user-select: none;
+        cursor: pointer;
+    }
+
+    .nav-menu-toggle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        outline: 1px solid #99b1cc80;
+
+        max-width: 1325px;
+        width: 95%;
+        margin: auto;
+        padding: 0.2em .5em;
+    }
+
+    .menu-toggle{
+        display: block;
+        border: none;
+        background: transparent;
+        background-image: url(../assets/icons/ham-menu.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1000;
+        width: 1rem;
+        aspect-ratio: 1; 
+        cursor: pointer;
+    }
+
+    .menu-toggle[aria-expanded="true"]{
+        background-image: url(../assets/icons/close-menu.svg);
+        position: fixed;
+        right: 1.5rem;
+    }
+    
+    .navbar-fixed{
+        outline: none;
+        align-items: flex-start;
+        padding: min(8vh, 30em) 0;
+        
+        position: fixed;
+        overflow: hidden;
+        z-index: 10;
+        background-color: #3a424d;
+        top: 0;
+        right: 0;
+        left: 30%;
+        bottom: 0;
+        transform: translateX(100%);
+        transition: transform 0.7s ease-out;
+    }
+
+    @supports (backdrop-filter: blur(4px)){
+        .navbar-fixed{
+        background-color: #3a424da2;
+        backdrop-filter: blur(4px);   
+        }
+    }
+
+    .navbar-fixed[data-visible="true"]{
+        transform: translateX(0%)
+    }
+
+    .navlinks .btn-hide{
+        display: block;
+    }
+
+    .navbar .hide, .navbar h3{
+        display: none;
+    }
+
+
+    .navlinks{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding-left: 2em;
+        width: 100%;
+    }
+
+    .navlinks li{
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+        width: 100%;
+        padding: .5em 0;
+        padding-left: 0;
+        margin: 1em 0;
+    }
+
+    .navlinks li a{
+        font-size: 1rem;
+    }
+
+    .navlinks li a:hover{
+        border: none;
+    }
+
+    .main-hero{
+        top: 7rem;
+    }
+
+    .hero{
+        top: 4.5rem;
+    }
+    
+    .main-hero h1{ 
+        font-size: 2rem;
+        margin-bottom: .5em;
+
+    }
+    
+    .main-hero h2, .hero h1{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media (max-width: 620px){
+    .side-bar-list a, .side-bar-form .trans-field{
+        font-size: .75rem;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-container-2col{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+    }
+
+    .grid-about-me{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 28px;
+        height: fit-content;
+    }
+
+    .grid-contact{
+        display: grid;
+        grid-template-columns:  1fr;
+        row-gap: 0;
+    }
+
+    .about-col-2{
+        display: none;
+    }
+
+    .grid-contact .divider{
+        display: block;
+    }
+
+    .services-grid{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3em;
+        height: fit-content;
+    }
+
+    .services{
+        margin: 1.5em 0;
+    }
+
+    .contact-address{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 14px;
+    }
+
+    .contact-info .socials{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .contact-info .socials img, 
+    .socials img, 
+    .main-socials img{
+        width: 20px;
+        margin-right: .5em;
+    }
+
+
+
+    .body-copy img{
+        width: 100%;
+    }
+
+
+    .profile{
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .footer-contact-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 2em;
+    }
+    
+
+    .main-footer-contact h2, 
+    .footer-contact h2{
+        font-size: 1.5rem;
+    }
+    
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: 1rem;
+        margin-bottom: 1em;
+    }
+
+    .contact-info span,
+    .contact-address .agent, 
+    .agent{
+        font-size: 1.5rem;
+    }
+
+    
+
+
+    .footer-contact-form .outline-field, 
+    .footer-contact-form .main-outline-field{
+        padding: .6em .5em;
+    }
+    
+
+    .footer-contact-form .outline-field, 
+    .footer-contact-form .main-outline-field, 
+    .btn{
+        flex: 1 1 auto;
+    }
+
+    .btn{
+        padding: .6em 0;
+        font-size: .8rem;
+    }
+    
+
+    .main-sitemap a, .sitemap a{
+        font-size: .85rem;
+    }
+    
+
+    .footer-copyright h3, .main-footer-contact h3{
+        font-size: .65rem;
+    }
+
+}
+
+
+/* Mobile to smallest screen */
+
+@media (max-width: 430px){
+
+    .testimonial p, .client{
+        font-size: .85rem;
+    }
+
+
+    .intro>*, 
+    .intro_about-me, 
+    .body-copy p, 
+    .marketing-list li,
+    .neighbour-nav a{
+    font-size: .85rem; 
+    }
+
+    .body-copy-h{
+        font-size: 1rem;
+    }
+
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: .85rem;
+    }
+
+    .contact-info span{
+        font-size: 1.2rem;
+    }
+
+    .footer-contact-address .socials,  
+    .main-socials {
+        margin-bottom: 2em;
+    }
+
+    .main-sitemap a, .sitemap a{
+        font-size: .7rem;
+    }
+    
+    .footer-contact-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2em;
+    }
+
+    .main-footer-contact .divider, 
+    .footer-contact .divider{
+        margin: 2em 0;
+    }
+
+    .page-nav a{
+        font-size: 1rem;
+    }
+ 
+}
+
+
+
+@media (max-width: 375px){
+    .contact-address{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 14px;
+    }
+
+    .contact-info p, 
+    .contact-info a,
+    .contact-info address{
+        font-size: .8rem;
+    }
+
+    .contact-info span{
+        font-size: 1rem;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .container{
+        margin-top: 1em;
+        margin-left: 0;
+    }
+
+    .services{
+        padding: 0;
+    }
+
+    .services h2{
+        font-size: 1.5rem;
+    }
+    
+    
+}
+
+
+@media (max-width: 320px){
+
+    .main-footer-contact h2, 
+    .footer-contact h2{
+        font-size: 1.4rem;
+    }
+
+    .footer-copyright h3, .main-footer-contact h3{
+        font-size: .6rem;
+    }
+}
+
+
+/****************************************************
+
+__________________MEDIA QUERY FOR CARDS________________
+
+
+*****************************************************
+*/
+
+
+@media (max-width: 880px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+
+@media (max-width: 650px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .grid-card, .grid-card-sold{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+}
+
+/****************************************************
+
+__________________END OF MEDIA QUERY FOR CARDS________________
+
+
+*****************************************************
+*/

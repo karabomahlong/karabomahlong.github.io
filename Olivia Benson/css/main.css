@@ -40,7 +40,7 @@ HEADER START
 
 
 .about-header{
-    background: linear-gradient(rgba(41, 41, 41, 0.6), rgba(41, 41, 41, 0.3), rgba(0, 0, 0, 0)), url(_);
+    background: linear-gradient(rgba(41, 41, 41, 0.6), rgba(41, 41, 41, 0.3), rgba(0, 0, 0, 0)), url(../assets/pictures/contact-header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ HEADER START
 
 .main-hero h1{ 
     font-size: 3rem;
-    margin-bottom: 0.2em;
+    margin-bottom: .2em;
 }
 
 .main-hero h2{
@@ -440,7 +440,6 @@ MAIN SECTIONS START
 }
 
 .services-grid{
-    
     display: grid;
     grid-template-columns: repeat(3, auto);
     column-gap: 28px;
@@ -469,7 +468,7 @@ MAIN SECTIONS START
 }
 
 .services p{
-    font-size: .75rem;
+    font-size: .85rem;
     font-weight: 300;
     line-height: 1.4;
     letter-spacing: .02rem;
