@@ -6,26 +6,26 @@
         margin: 0;
         padding: 0;
         font-family: aescrawl, 'Courier New', Courier, monospace;
-        box-sizing: border-box;     
+        box-sizing: border-box;    
     }
 
     .bg-img{
-        background-image: linear-gradient(rgba(2,2,2,0.3), rgba(2,2,2,0.3)), url(assets/bg-image4.jpg);
+        background-image: linear-gradient(rgba(2,2,2,0.3), rgba(2,2,2,0.3)), url(assets/bg-image.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh;
-        
+        min-height: 100vh;
     }
 
-    .content{
+    .content{  
         max-width: 707px;
         width: 85%;
+        max-height: fit-content;
         margin: auto;
     }
 
     .profile{
-        margin-top: 2em;
+        margin: 4em;
         text-align: center;   
     }
 
@@ -35,20 +35,14 @@
     }
 
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
     .navlinks li{
-        margin: 2em 0;
+        margin-bottom: 2em;
         padding: .75em;   
         list-style: none;
         text-decoration: none;
         text-align: center;
         border: .15em solid #fff;
-        border-radius: 8.5px;    
+        border-radius: .75em;    
     }
 
     .navlinks li:nth-child(3){
@@ -64,7 +58,7 @@
     }
 
     .socials{
-        margin: 2em 0;
+        padding: 4em 0;
         text-align: center;
     }
 
@@ -80,6 +74,9 @@
     }
 
     @media (max-width: 425px){
+        .g-img{
+            height: 100vh;
+        }
 
         .profile-img{
             max-width: 12em;
@@ -91,9 +88,7 @@
 
         .socials img{
             width: 2em;
-            margin: 0 1em;
         }
-  
     }
 
 
