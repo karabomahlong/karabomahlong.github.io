@@ -10,11 +10,11 @@
     }
 
     .bg-img{
-        background-image: url(assets/bg-image3.png) ;
+        background-image: linear-gradient(rgba(2,2,2,0.3), rgba(2,2,2,0.3)), url(assets/bg-image4.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        backdrop-filter: blur(1.5px);
+        height: 100vh;
         
     }
 
@@ -25,19 +25,13 @@
     }
 
     .profile{
-        margin-top: 50px;
+        margin-top: 2em;
         text-align: center;   
     }
 
-    .profile img{
+    .profile-img{
         max-width: 229px;
         width: 100%;
-    }
-
-    @media (max-width: 375px){
-        .profile{
-            margin-top: 25px;
-        }
     }
 
 
@@ -48,12 +42,12 @@
     }
 
     .navlinks li{
-        margin: 35px 0;
-        padding: 8.5px 0;   
+        margin: 2em 0;
+        padding: .75em;   
         list-style: none;
         text-decoration: none;
         text-align: center;
-        border: 2.6px solid #fff;
+        border: .15em solid #fff;
         border-radius: 8.5px;    
     }
 
@@ -65,11 +59,12 @@
         text-decoration: none;
         color: #fff;
         font-size: 1.75rem;
+        font-weight: 300;
         letter-spacing: 2px;
     }
 
     .socials{
-        margin: 35px 0;
+        margin: 2em 0;
         text-align: center;
     }
 
@@ -78,14 +73,36 @@
         background: transparent;
         border-radius: 50%;
         box-shadow: 2px -2.5px 1px #ffffff;
-        width: 3.5rem;
+        max-width: 3.5rem;
+        width: 100%;
         margin: 0 1.5em;
         cursor: pointer;
     }
 
-    @media (max-width: 400px){
+    @media (max-width: 425px){
+
+        .profile-img{
+            max-width: 12em;
+        }
+
+        .navlinks a{
+            font-size: 1.2rem;
+        }
+
         .socials img{
-            width: 2.5rem;
+            width: 2em;
             margin: 0 1em;
+        }
+  
+    }
+
+
+    @media (max-width: 375px){
+        .profile{
+            margin-top: 1.5em;
+        }
+
+        .profile-img{
+            max-width: 12em;
         }
     }
